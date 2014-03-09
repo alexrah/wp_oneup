@@ -13,18 +13,18 @@ class PeThemeService {
 			array(
 				  'labels' => 
 				  array(
-						'name'              => __("Services",'Pixelentity Theme/Plugin'),
-						'singular_name'     => __("Service",'Pixelentity Theme/Plugin'),
-						'add_new_item'      => __("Add New Service",'Pixelentity Theme/Plugin'),
-						'search_items'      => __('Search Services','Pixelentity Theme/Plugin'),
-						'popular_items' 	  => __('Popular Services','Pixelentity Theme/Plugin'),		
-						'all_items' 		  => __('All Services','Pixelentity Theme/Plugin'),
-						'parent_item' 	  => __('Parent Service','Pixelentity Theme/Plugin'),
-						'parent_item_colon' => __('Parent Service:','Pixelentity Theme/Plugin'),
-						'edit_item' 		  => __('Edit Service','Pixelentity Theme/Plugin'), 
-						'update_item' 	  => __('Update Service','Pixelentity Theme/Plugin'),
-						'add_new_item' 	  => __('Add New Service','Pixelentity Theme/Plugin'),
-						'new_item_name' 	  => __('New Service Name','Pixelentity Theme/Plugin')
+						'name'              => __("Servizi",'Pixelentity Theme/Plugin'),
+						'singular_name'     => __("Servizio",'Pixelentity Theme/Plugin'),
+						'add_new_item'      => __("Aggiungi Nuovo Servizio",'Pixelentity Theme/Plugin'),
+						'search_items'      => __('Cerca Servizi','Pixelentity Theme/Plugin'),
+						'popular_items' 	  => __('Servizi Popolari','Pixelentity Theme/Plugin'),		
+						'all_items' 		  => __('Tutti i Servizi','Pixelentity Theme/Plugin'),
+						'parent_item' 	  => __('Parent Servizio','Pixelentity Theme/Plugin'),
+						'parent_item_colon' => __('Parent Servizio:','Pixelentity Theme/Plugin'),
+						'edit_item' 		  => __('Edita Servizio','Pixelentity Theme/Plugin'), 
+						'update_item' 	  => __('Aggiorna Servizio','Pixelentity Theme/Plugin'),
+						'add_new_item' 	  => __('Aggiungi Nuovo Servizio','Pixelentity Theme/Plugin'),
+						'new_item_name' 	  => __('Nome Nuovo Servizio','Pixelentity Theme/Plugin')
 						),
 				  'public' => true,
 				  'has_archive' => false,
@@ -40,7 +40,7 @@ class PeThemeService {
 
 		$mbox = 
 			array(
-				  "title" => __("Service Info",'Pixelentity Theme/Plugin'),
+				  "title" => __("Servizio Info",'Pixelentity Theme/Plugin'),
 				  "type" => "",
 				  "priority" => "core",
 				  "where" =>
