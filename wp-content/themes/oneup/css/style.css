@@ -4229,6 +4229,10 @@ Tags: photoblogging
 	opacity: 1;
 	z-index: 2;
 	-webkit-transform: translate(0px,0px);
+  color: #B1D35A;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: cursive;
 
 }
 

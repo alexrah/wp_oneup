@@ -1,0 +1,750 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2010-04-17 19:08+0000\n"
+"PO-Revision-Date: 2013-11-13 13:37+0100\n"
+"Last-Translator: SteveAgl <info@wordpress-it.it>\n"
+"Language-Team: SteAgl <steve@40annibuttati.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"Language: it_IT\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mu-plugins/rosetta.php:77 mu-plugins/rosetta/tmpl/translations.php:2
+#, php-format
+msgid "Translations for %s"
+msgstr "Traduzioni per %s"
+
+#: mu-plugins/rosetta.php:79 mu-plugins/rosetta/tmpl/deploy_queue.php:2
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:23
+msgid "Deploy Requests"
+msgstr "Richieste di deploy"
+
+#: mu-plugins/rosetta.php:80
+msgid "Main menu"
+msgstr "Menu principale"
+
+#: mu-plugins/rosetta.php:83 mu-plugins/rosetta/tmpl/showcase.php:2
+#: themes/rosetta/index.php:52 themes/rosetta/index.php:75
+msgid "Showcase"
+msgstr "Vetrina"
+
+#: mu-plugins/rosetta.php:128
+msgid "Request added successfully."
+msgstr "Request added successfully."
+
+#: mu-plugins/rosetta.php:130
+msgid "Couldn&#8217;t add the request!"
+msgstr "Couldn&#8217;t add the request!"
+
+#: mu-plugins/rosetta.php:136
+msgid "Request canceled successfully."
+msgstr "Request canceled successfully."
+
+#: mu-plugins/rosetta.php:138
+msgid "Couldn&#8217;t cancel the request!"
+msgstr "Couldn&#8217;t cancel the request!"
+
+#: mu-plugins/rosetta.php:143
+msgid "Request updated successfully."
+msgstr "Request updated successfully."
+
+#: mu-plugins/rosetta.php:145
+msgid "Couldn&#8217;t update the request!"
+msgstr "Couldn&#8217;t update the request!"
+
+#: mu-plugins/rosetta.php:215 mu-plugins/rosetta/tmpl/main_menu.php:11
+msgid "Home"
+msgstr "Home"
+
+#: mu-plugins/rosetta.php:215
+msgid "Home page"
+msgstr "Home page"
+
+#: mu-plugins/rosetta.php:216 mu-plugins/rosetta/tmpl/main_menu.php:40
+#: themes/rosetta/contact.php:153
+msgid "Contact"
+msgstr "Contatto"
+
+#: mu-plugins/rosetta.php:216
+msgid "Contact the translators"
+msgstr "Contatta i traduttori"
+
+#: mu-plugins/rosetta/builder.php:101
+msgid "Couldn't open version.php"
+msgstr "Impossibile aprire version.php"
+
+#: mu-plugins/rosetta/builder.php:111
+msgid "Couldn't write version.php"
+msgstr "Impossibile scrivere version.php"
+
+#: mu-plugins/rosetta/builder.php:118
+msgid "Couldn't open wp-config-sample.php"
+msgstr "Impossibile aprire wp-config-sample.php"
+
+#: mu-plugins/rosetta/builder.php:125
+msgid "Couldn't write wp-config-sample.php"
+msgstr "Impossibile scrivere wp-config-sample.php"
+
+#: mu-plugins/rosetta/builder.php:142
+msgid "No svn branch associated with this project."
+msgstr "Nessun branch svn associato a questo progetto."
+
+#: mu-plugins/rosetta/builder.php:187
+#, php-format
+msgid "Couldn&#8217;t retrieve the file from: %s"
+msgstr "Impossibile recuperare il file da: %s"
+
+#: mu-plugins/rosetta/builder.php:189
+#, php-format
+msgid "Couldn&#8217;t write downloaded file to %s"
+msgstr "Impossibile scrivere il file in %s"
+
+#: mu-plugins/rosetta/builder.php:196
+#, php-format
+msgid "The locale %s doesn&#8217;t have associated locale in GlotPress."
+msgstr "Il 'locale' %s non dispone di una associazione locale su GlotPress."
+
+#: mu-plugins/rosetta/builder.php:228
+#, php-format
+msgid ""
+"The default key in dist/wp-config-sample.php does&#8217;t match "
+"$wp_default_secret_key in %1$s.php. The one in the sample config is:<p><code>"
+"%2$s</code></p><p>and the one in %1$s.php is:</p><p><code>%3$s</code></p>"
+msgstr ""
+"La chaive predefinita in dist/wp-config-sample.php non corrisponde con "
+"$wp_default_secret_key in %1$s.php. Quella nel file di esempio di "
+"configurazione è:<p><code>%2$s</code></p><p>e quella in %1$s.php è:</"
+"p><p><code>%3$s</code></p>"
+
+#: mu-plugins/rosetta/builder.php:262
+msgid "Couldn&#8217;t create a temporary file!"
+msgstr "Impossibile creare un file temporaneo!"
+
+#: mu-plugins/rosetta/builder.php:266
+#, php-format
+msgid "Couldn&#8217;t delete temporary file %s!"
+msgstr "Impossibile cancellare il file temporaneo %s!"
+
+#: mu-plugins/rosetta/builder.php:270
+#, php-format
+msgid "Couldn&#8217;t create temporary directory %s!"
+msgstr "Impossibile creare la directory temporanea %s!"
+
+#: mu-plugins/rosetta/builder.php:301
+#, php-format
+msgid ""
+"Error in exporting theme/%s. Probably this branch/tag doesn&#8217;t exist."
+msgstr ""
+"Errore nell&#8217;esportazione di theme/%s. Probabilmente questo ramo/tag "
+"non esiste."
+
+#: mu-plugins/rosetta/builder.php:314
+msgid "Error in exporting iis branch from locale repostory."
+msgstr "Errore nell'esportazione del branch iis dal repository locale."
+
+#: mu-plugins/rosetta/builder.php:320
+msgid "Error moving iis files to build directory."
+msgstr ""
+"Errore nello spostamento dei file iis per la costruzione della directory"
+
+#: mu-plugins/rosetta/builder.php:338
+#, php-format
+msgid "Couldn&#8217;t open directory %s for reading!"
+msgstr "Impossibile aprire in lettura la directory %s!"
+
+#: mu-plugins/rosetta/builder.php:347 mu-plugins/rosetta/rosetta.php:85
+#, php-format
+msgid "Couldn&#8217;t create directory %s!"
+msgstr "Impossibile creare la directory %s!"
+
+#: mu-plugins/rosetta/builder.php:356 mu-plugins/rosetta/builder.php:388
+#, php-format
+msgid "Couldn&#8217;t copy %s to %s!"
+msgstr "Impossibile copiare %s in %s!"
+
+#: mu-plugins/rosetta/builder.php:374
+#, php-format
+msgid "Po file %s doesn&#8217;t exist!"
+msgstr "Il file po %s non esiste!"
+
+#: mu-plugins/rosetta/builder.php:380
+#, php-format
+msgid "Couldn&#8217;t create mo file %s from po file %s!"
+msgstr "Impossibile creare il file mo %s dal file po %s!"
+
+#: mu-plugins/rosetta/rosetta.php:38 mu-plugins/rosetta/rosetta.php:271
+#: mu-plugins/rosetta/rosetta.php:291 mu-plugins/rosetta/rosetta.php:304
+#, php-format
+msgid "Invalid version %s."
+msgstr "Versione non valida %s."
+
+#: mu-plugins/rosetta/rosetta.php:39
+#, php-format
+msgid "Invalid revision %s."
+msgstr "Revisione non valida %s."
+
+#: mu-plugins/rosetta/rosetta.php:40 mu-plugins/rosetta/rosetta.php:41
+#: mu-plugins/rosetta/rosetta.php:272 mu-plugins/rosetta/rosetta.php:292
+#, php-format
+msgid "Invalid source %s."
+msgstr "Sorgente non valida %s."
+
+#: mu-plugins/rosetta/rosetta.php:112
+#, php-format
+msgid "Couldn&#8217;t move %s to %s."
+msgstr "Impossibile spostare %s in %s."
+
+#: mu-plugins/rosetta/rosetta.php:281
+#, php-format
+msgid "Couldn&#8217;t copy %1$s to release dir %2$s"
+msgstr "Impossibile copiare %1$s alla directory della release %2$s"
+
+#: mu-plugins/rosetta/rosetta.php:297
+#, php-format
+msgid "Couldn&#8217;t delete build file %s"
+msgstr "Impossibile cancellare il file della build %s"
+
+#: mu-plugins/rosetta/rosetta.php:309
+#, php-format
+msgid "Couldn&#8217;t delete release file %s"
+msgstr "Impossibile cancellare il file di release %s"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:16
+msgid "Note to deployer (optional):"
+msgstr "Note to deployer (optional):"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:18
+msgid "Request deploy &raquo;"
+msgstr "Richiedi un deploy &raquo;"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:27
+msgid "Requested On"
+msgstr "Richiesta il"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:28
+msgid "Status"
+msgstr "Stato"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:29
+#: mu-plugins/rosetta/tmpl/translations.php:16
+#: mu-plugins/rosetta/tmpl/translations.php:66
+msgid "Action"
+msgstr "Azione"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:41
+#, php-format
+msgid "Deployed on %s"
+msgstr "Deployed on %s"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:41
+msgid "Waiting&hellip;"
+msgstr "In attesa&hellip;"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:42
+msgid "Cancel"
+msgstr "Annulla"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:45
+msgid "Deploy"
+msgstr "Deploy"
+
+#: mu-plugins/rosetta/tmpl/deploy_queue.php:52
+msgid "Request a deploy &raquo;"
+msgstr "Rchiedi un deploy &raquo;"
+
+#: mu-plugins/rosetta/tmpl/main_menu.php:2
+msgid "Main Menu"
+msgstr "Menu principale"
+
+#: mu-plugins/rosetta/tmpl/translations.php:8
+msgid "Builds"
+msgstr "Build"
+
+#: mu-plugins/rosetta/tmpl/translations.php:12
+#: mu-plugins/rosetta/tmpl/translations.php:63
+msgid "Version"
+msgstr "Versione"
+
+#: mu-plugins/rosetta/tmpl/translations.php:13
+#: mu-plugins/rosetta/tmpl/translations.php:64
+msgid "Links"
+msgstr "Link"
+
+#: mu-plugins/rosetta/tmpl/translations.php:14
+msgid "Built On"
+msgstr "Build su"
+
+#: mu-plugins/rosetta/tmpl/translations.php:15
+msgid "Locale Branch"
+msgstr "Ramo locale"
+
+#: mu-plugins/rosetta/tmpl/translations.php:36
+msgid "Release"
+msgstr "Versione"
+
+#: mu-plugins/rosetta/tmpl/translations.php:41
+#: mu-plugins/rosetta/tmpl/translations.php:98
+msgid "Delete"
+msgstr "Cancella"
+
+#: mu-plugins/rosetta/tmpl/translations.php:46
+msgid "Go and build a localized version &raquo;"
+msgstr "Inizia e costruisci una versione localizzata &raquo;"
+
+#: mu-plugins/rosetta/tmpl/translations.php:52
+msgid ""
+"<strong>Hint:</strong> You can all delete all the old builds you don&#8217;t "
+"need."
+msgstr ""
+"<strong>Suggerimento:</strong> &Egrave; possibile cancellare tutte le "
+"vecchie build di cui non si ha necessità."
+
+#: mu-plugins/rosetta/tmpl/translations.php:59
+msgid "Releases"
+msgstr "Versioni"
+
+#: mu-plugins/rosetta/tmpl/translations.php:65
+msgid "Released On"
+msgstr "Rilasciato su"
+
+#: mu-plugins/rosetta/tmpl/translations.php:84
+msgid "Toggle the rest of the releases"
+msgstr "Mostra il resto delle versioni"
+
+#: mu-plugins/rosetta/tmpl/translations.php:103
+msgid "No Releases"
+msgstr "Nessuna release"
+
+#: mu-plugins/rosetta/tmpl/translations.php:108
+msgid "Build New Package"
+msgstr "Costruisci un nuovo pacchetto"
+
+#: mu-plugins/rosetta/tmpl/translations.php:113
+msgid "Where should we get your translations from:"
+msgstr "Da dove dobbiamo prendere la traduzione:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:116
+msgid "Subversion"
+msgstr "Subversion"
+
+#: mu-plugins/rosetta/tmpl/translations.php:120
+msgid "(<code>dist/</code> files will still be taken from Subversion)"
+msgstr "(<code>dist/</code> i file bverranno ancora presi da Subversion)"
+
+#: mu-plugins/rosetta/tmpl/translations.php:122
+msgid "Locale branch:"
+msgstr "Ramo locale:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:123
+msgid "Locale branch for dist files:"
+msgstr "Ramo locale per i file di distribuzione:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:128
+msgid ""
+"The directory from your repository, from which the package will be built."
+msgstr ""
+"La directory del vostro repository, dalla quale verrà costruito il pacchetto."
+
+#: mu-plugins/rosetta/tmpl/translations.php:129
+msgid ""
+"The directory from your repository, from which the dist files will be taken."
+msgstr ""
+"La directory del vostro repository, dalla quale verranno presi i file di "
+"distribuzione."
+
+#: mu-plugins/rosetta/tmpl/translations.php:131
+msgid "Project:"
+msgstr "Progetto:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:136
+msgid "Project name at translate.wordpress.org"
+msgstr "Nome progetto su translate.wordpress.org"
+
+#: mu-plugins/rosetta/tmpl/translations.php:138
+msgid "WordPress branch:"
+msgstr "Ramo WordPress:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:143
+msgid ""
+"The directory from the WordPress repository, from which the package will be "
+"built."
+msgstr ""
+"La directory dal repository WordPress, dalla quale verrà costriuita il "
+"pacchetto."
+
+#: mu-plugins/rosetta/tmpl/translations.php:145
+msgid "WordPress revision:"
+msgstr "Revisione WordPress:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:148
+msgid ""
+"If the WordPress version you want to use isn&#8217;t tagged enter the "
+"version file bump revision here to get the right files."
+msgstr ""
+"Se la versione di WordPress che si desidera usare non è marcata, inserire la "
+"versione del file di bump della revisione per ottenere i file corretti."
+
+#: mu-plugins/rosetta/tmpl/translations.php:150
+msgid "WordPress Version:"
+msgstr "Versione WordPress:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:153
+msgid "This number will appear in the filename of your release."
+msgstr "Questo numero appare nel nome del file della tua release."
+
+#: mu-plugins/rosetta/tmpl/translations.php:155
+msgid "Translation of default theme:"
+msgstr "Traduzione del tema standard:"
+
+#: mu-plugins/rosetta/tmpl/translations.php:156
+msgid ""
+"Default theme translation will be taken from <code>messages/theme-name/theme-"
+"name.po</code> in your locale branch."
+msgstr ""
+"La traduzione predefinita del tema verrà presa da <code>messages/theme-name/"
+"theme-name.po</code> nel branch locale."
+
+#: mu-plugins/rosetta/tmpl/translations.php:157
+msgid ""
+"Theme translation will be taken from the <code>Twenty Ten</code> project "
+"inside the translate.wordpress.org project you chose."
+msgstr ""
+"L atraduzione del tema verrà presa dal progetto <code>Twenty Ten</code> "
+"all'interno del progetto scelto su translate.wordpress.org."
+
+#: mu-plugins/rosetta/tmpl/translations.php:158
+msgid "Build &raquo;"
+msgstr "Build &raquo;"
+
+#: themes/rosetta/archive.php:5 themes/rosetta/index.php:97
+#: themes/rosetta/single.php:5
+msgid "Blog"
+msgstr "Blog"
+
+#: themes/rosetta/archive.php:12
+#, php-format
+msgid "Archives for %s"
+msgstr "Archivi per %s"
+
+#: themes/rosetta/archive.php:12
+msgid "F, Y"
+msgstr "F Y"
+
+#: themes/rosetta/archive.php:13
+msgid "&laquo; Back to blog"
+msgstr "&laquo; Tornare al blog"
+
+#: themes/rosetta/archive.php:21 themes/rosetta/index.php:104
+#: themes/rosetta/single.php:15
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: themes/rosetta/archive.php:23 themes/rosetta/single.php:17
+msgid "Read the rest of this entry &raquo;"
+msgstr "Leggi il resto di questo articolo &raquo;"
+
+#: themes/rosetta/archive.php:27
+msgid "&larr; Older Posts"
+msgstr "&larr; Articoli nemno recenti"
+
+#: themes/rosetta/archive.php:28
+msgid "Newer Posts &rarr;"
+msgstr "Articoli più recenti &rarr;"
+
+#: themes/rosetta/comments.php:2
+msgid "Comments"
+msgstr "Commenti"
+
+#: themes/rosetta/comments.php:8
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: themes/rosetta/comments.php:8
+msgid "g:i a"
+msgstr "G:i"
+
+#: themes/rosetta/comments.php:9
+msgid "Permanent link to this comment"
+msgstr "Permalink a questo commento"
+
+#: themes/rosetta/comments.php:10
+msgid "Edit&nbsp;This"
+msgstr "Modifica questo commento"
+
+#: themes/rosetta/comments.php:23
+msgid "Add a Comment"
+msgstr "Aggiungi un commento"
+
+#: themes/rosetta/comments.php:27
+#, php-format
+msgid "Logged in as %s."
+msgstr "Collegato come %s."
+
+#: themes/rosetta/comments.php:27
+msgid "Log out of this account."
+msgstr "Esci da questo account"
+
+#: themes/rosetta/comments.php:27
+msgid "Logout &raquo;"
+msgstr "Logout &raquo;"
+
+#: themes/rosetta/comments.php:33
+msgid "Name <em>(required)</em>"
+msgstr "Nome <em>(obbligatorio)</em>"
+
+#: themes/rosetta/comments.php:36
+msgid "Email <em>(required)</em>"
+msgstr "Email <em>(obbligatoria)</em>"
+
+#: themes/rosetta/comments.php:39
+msgid "Web Site"
+msgstr "Sito Web"
+
+#: themes/rosetta/comments.php:46
+msgid "Post Comment &raquo;"
+msgstr "Invia commento &raquo;"
+
+#: themes/rosetta/contact.php:44
+msgid "Error"
+msgstr "Errore"
+
+#: themes/rosetta/contact.php:45
+msgid ""
+"There seems to have been a problem with the information you entered. Please "
+"fix the field indicated and resubmit."
+msgstr ""
+"Sembra vi siano dei problemi con le informazioni che hai immesso. Correggi i "
+"campi indicati e reinvia il modulo."
+
+#: themes/rosetta/contact.php:50 themes/rosetta/contact.php:56
+#: themes/rosetta/contact.php:159
+msgid "Your Name:"
+msgstr "Nome:"
+
+#: themes/rosetta/contact.php:52
+msgid "Let us know your name."
+msgstr "Dicci il tuo nome."
+
+#: themes/rosetta/contact.php:63 themes/rosetta/contact.php:69
+#: themes/rosetta/contact.php:163
+msgid "Your Email:"
+msgstr "Email:"
+
+#: themes/rosetta/contact.php:65
+msgid "Your email address did not appear to be valid. Please check it."
+msgstr "Il tuo indirizzo email non sembra essere valido. Controllalo."
+
+#: themes/rosetta/contact.php:75 themes/rosetta/contact.php:167
+msgid "URI of your blog:"
+msgstr "URI del tuo blog:"
+
+#: themes/rosetta/contact.php:80 themes/rosetta/contact.php:85
+#: themes/rosetta/contact.php:171
+msgid "What&rsquo;s this about?"
+msgstr "Oggetto"
+
+#: themes/rosetta/contact.php:81
+msgid "Write something!"
+msgstr "Scrivi qualche cosa"
+
+#: themes/rosetta/contact.php:92 themes/rosetta/contact.php:98
+msgid "Your Message:"
+msgstr "Il tuo messaggio"
+
+#: themes/rosetta/contact.php:94
+msgid "Say something!"
+msgstr "Dicci qualche cosa"
+
+#: themes/rosetta/contact.php:104
+msgid "Submit Form Again"
+msgstr "Invia nuovamente il modulo"
+
+#: themes/rosetta/contact.php:147
+msgid "Submitted!"
+msgstr "Inviato!"
+
+#: themes/rosetta/contact.php:148
+msgid "Thank you!"
+msgstr "Grazie"
+
+#: themes/rosetta/contact.php:154
+msgid "You can contact translators and this site administrators via this form:"
+msgstr ""
+"Tramite questo modulo è possibile contattare i traduttori della versione "
+"italiana di WordPress:"
+
+#. translators: feel free to add links to places, where one can get support in your language.
+#: themes/rosetta/contact.php:155
+msgid ""
+"<strong>Please, do not post support requests here!</strong> They will "
+"probably be ignored."
+msgstr ""
+"<strong>ATTENZIONE: non effettuate richieste di aiuto o di informazione "
+"tramite questo modulo, verranno ignorate!</strong><br /><strong>ATTENZIONE: "
+"non effettuate richieste di aiuto o di informazione per siti ospitati su "
+"wordpress.com questo contatto riguarda solo la traduzione italiana del "
+"pacchetto software WordPress. wordpress.com ha il suo supporto un <a href="
+"\"http://it.forums.wordpress.com/\">forum di supporto in italiano dedicato</"
+"a> dedicato e non è in ALCUN modo collegata a wpitaly.it, eventuali "
+"richieste di questo tipo!</strong><br /> Per informazioni, richieste di "
+"supporto e documentazioni sulla versione italiana di WordPress da installare "
+"sui proprio spazi web (quidni non i blog di wordpress.com anche se "
+"acqusistai assieme a domini e/o a temi ecc) si faccia riferimento al <a href="
+"\"http://www.wpitaly.it\">sito italiano ufficiale.</a><br />"
+
+#: themes/rosetta/contact.php:159 themes/rosetta/contact.php:163
+#: themes/rosetta/contact.php:171 themes/rosetta/contact.php:175
+msgid "(required)"
+msgstr "(obbligatorio)"
+
+#: themes/rosetta/contact.php:175
+msgid "Tell us something:"
+msgstr "Dicci qualche cosa:"
+
+#: themes/rosetta/contact.php:180
+msgid "Submit Contact Form"
+msgstr "Invia modulo di contatto"
+
+#: themes/rosetta/download-sidebar.php:7
+#, php-format
+msgid "Download WordPress %s"
+msgstr "Scarica WordPress %s"
+
+#: themes/rosetta/download-sidebar.php:9
+#, php-format
+msgid ".zip &mdash; %s MB"
+msgstr ".zip &mdash; %s MB"
+
+#: themes/rosetta/download-sidebar.php:11
+#, php-format
+msgid "Download .tar.gz &mdash; %s MB"
+msgstr "Scarica .tar.gz &mdash; %s MB"
+
+#: themes/rosetta/download-sidebar.php:13
+msgid "More download options"
+msgstr "Altre opzioni di download"
+
+#: themes/rosetta/download-sidebar.php:15
+msgid "Other file formats"
+msgstr "Altri formati di file"
+
+#: themes/rosetta/download-sidebar.php:16
+msgid "Older versions"
+msgstr "Vecchie versioni"
+
+#: themes/rosetta/download-sidebar.php:17
+msgid "Beta &amp; RC versions"
+msgstr "Versioni Beta &amp; RC"
+
+#: themes/rosetta/download-sidebar.php:22
+msgid "Resources"
+msgstr "Risorse"
+
+#: themes/rosetta/download-sidebar.php:24
+msgid ""
+"For help with installing or using WordPress, consult our documentation in "
+"your language."
+msgstr ""
+"Per ottenre aiuto su come installare o utilizzare WordPress, consultare la "
+"documentazione nella propria lingua."
+
+#: themes/rosetta/download.php:16
+msgid "Latest release"
+msgstr "Ultima versione"
+
+#: themes/rosetta/download.php:29
+#, php-format
+msgid "%s Branch"
+msgstr "Ramo %s"
+
+#: themes/rosetta/download.php:44
+msgid "Beta &amp; RC releases"
+msgstr "Versioni Beta &amp; RC"
+
+#: themes/rosetta/download.php:60
+msgid "There are no releases"
+msgstr "Non vi sono versioni"
+
+#: themes/rosetta/footer.php:3
+msgid "Code is Poetry."
+msgstr "IL Codice è Poesia."
+
+#: themes/rosetta/functions.php:24
+msgid "Y-M-d"
+msgstr "d-M-Y"
+
+#: themes/rosetta/index.php:63
+msgid "Visit the site &rarr;"
+msgstr "Visita il sito &rarr;"
+
+#: themes/rosetta/index.php:103
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permalink a %s"
+
+#: themes/rosetta/index.php:113
+msgid "Blog Archives"
+msgstr "Archivi Blog"
+
+#~ msgid "Invalid version %s! Should conform to the %s regular expression"
+#~ msgstr ""
+#~ "Versione non valida %s! Dovrebbe essere conforme all&#8217;espressione "
+#~ "regolare %s"
+
+#~ msgid "Invalid source %s! Should conform to the %s regular expression"
+#~ msgstr ""
+#~ "Sorgente %s non valido! Dovrebbe essere conforme all&#8217;espressione "
+#~ "regolare %s"
+
+#~ msgid "Invalid version! Should conform to:"
+#~ msgstr "Versione non valida! Dovrebbe essere conforme a:"
+
+#~ msgid "Invalid WordPress source! Should conform to:"
+#~ msgstr "Sorgente WordPress non valida! Dovrebbe essere conforme a:"
+
+#~ msgid "Invalid locale source! Should conform to:"
+#~ msgstr "Risorsa locale non valida! Dovrebbe essere conforme a:"
+
+#~ msgid "Invalid WordPress revision! Should conform to:"
+#~ msgstr "Revisione WordPress non valida! Dovrebbe essere conforme a:"
+
+#~ msgid "Default theme handling:"
+#~ msgstr "Gestione del tema standard:"
+
+#~ msgid "Leave untranslated"
+#~ msgstr "Lascia non tradotto"
+
+#~ msgid ""
+#~ "Use the translated version from the <code>theme/default</code> folder of "
+#~ "my repository"
+#~ msgstr ""
+#~ "Utilizare la versione tradotta dalla cartella <code>theme/default</code> "
+#~ "del mio repository"
+
+#~ msgid ""
+#~ "Use the i18n-ed version of the theme and add my po/mo files from the "
+#~ "<code>messages/kubrick</code> folder of my repository"
+#~ msgstr ""
+#~ "Utilizzare la versione i18n del tema ed aggiungi i miei file po/mo dalla "
+#~ "cartella <code>messages/kubrick</code> nel mio repository"
+
+#~ msgid ""
+#~ "Include the original, untranslated default theme as another theme named "
+#~ "<code>default-en</code>"
+#~ msgstr ""
+#~ "Include il tema standard originale, non tradotto così come un altro tema "
+#~ "denominato <code>default-it</code>"
+
+#~ msgid "Comments are closed."
+#~ msgstr "I Commenti sono chiusi."
+
+#~ msgid "Download <span>Version %s</span>"
+#~ msgstr "Download <span>Versione %s</span>"
