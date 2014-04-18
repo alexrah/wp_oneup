@@ -41,6 +41,9 @@
 
 		<!-- wp_head() -->
 		<?php $t->header->wp_head(); ?>
+
+<script type="text/javascript" src="http://fast.fonts.net/jsapi/00904113-a976-4a5b-974a-b03e2241855d.js"></script>
+
 	</head>
 
 	<?php $bclasses = $t->transparent() ? 'pe-header-transparent' : '';  ?>

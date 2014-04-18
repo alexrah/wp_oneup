@@ -212,6 +212,7 @@
 		var i,f,field,fields,caption,captions_data = items.find(".pe_fields_item_item");
 		var output = preview.find("div.peVolo");
 		var template = '<div class="peCaptionLayer %0 %4 %5 %7" data-id="%8" style="-moz-user-select: none;-webkit-user-select: none;cursor:pointer;position:absolute;width:auto;left:%1px;top:%2px;%6">%3</div>';
+		// var template = '<div class="peCaptionLayer %0 %4 %5 %7" data-id="%8" style="-moz-user-select: none;-webkit-user-select: none;cursor:pointer;position:absolute;width:auto;left:-60px;top:%2px;%6">%3</div>';
 		if (output.length === 0) {
 			output = $('<div class="peVolo peSlider"></div>');
 			output.css({

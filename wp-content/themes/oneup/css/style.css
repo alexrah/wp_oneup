@@ -196,7 +196,7 @@ Tags: photoblogging
 		font-weight:400;
 	}
 
-	.peSlider > div.peCaption{
+	.peSlider > div.pe300{
 		background-color:rgba(0,0,0,0.7);
 	}
 
@@ -1117,7 +1117,7 @@ Tags: photoblogging
 		position:relative;
 		left:50%;
 		width:auto;
-		margin-bottom:60px;
+		/* margin-bottom:60px; */
 	}
 
 	.foot-lower .social-media-wrap .social-media{
@@ -4206,7 +4206,7 @@ Tags: photoblogging
 
 .pe-splash-section .pe-headlines > div {
 	line-height: 100%;
-	width: 100%;
+	/* width: 200%; */
 	position: absolute;
 	opacity: 0;
 	z-index: 1;
@@ -4232,7 +4232,7 @@ Tags: photoblogging
   color: #B1D35A;
   font-size: 4em;
   font-weight: bold;
-  font-family: cursive;
+  font-family:'Mahogany Script W01', cursive;
 
 }
 
@@ -4362,4 +4362,16 @@ body > .site-loader.pe-disabled {
 
 .desktop.safari body > .site-loader {
 	display: none;
+}
+
+.wrapper a {
+  width: 70%;
+}
+
+.pe-lazyloading-forceload {
+  width: 292%;
+}
+
+.pe-active {
+  width: 240%;
 }
