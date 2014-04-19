@@ -4385,3 +4385,8 @@ body > .site-loader.pe-disabled {
   float: left;
   width: 58%;
 }
+
+#menu-posts-project { display: none; }
+#menu-posts-service { display: none; }
+#menu-posts-staff { display: none; }
+#menu-posts-testimonial { display: none; }

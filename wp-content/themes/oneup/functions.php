@@ -20,7 +20,7 @@ require("framework/php/boot.php");
 // add the following part
 add_filter("the_content_more_link","my_the_content_more_link",99);
 function my_the_content_more_link($more) {
-	return  sprintf('&nbsp;<a href="%s" class="read-more">%s</a>',get_permalink(),'more');
+	return  sprintf('&nbsp;<a href="%s" class="read-more">Continua</a>',get_permalink(),'more');
 }
 
 ?>
