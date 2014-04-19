@@ -392,7 +392,23 @@
 	/*small tablet*/
     /*----------------------------------------------------------------------*/
     @media (max-width: 767px) {
+
+      .mappa {
+        float: none;
+        margin-left: 19%;
+        margin-bottom: 10%;
+      }
+
+      .contatto {
+        float: none;
+        width: 100%
+      }
         
+      .peThemeContactForm .controls .span9 {
+        width: 100% !important;
+      }
+
+
         /*cancel body padding on mobile*/
         body {
             padding-left: 0;

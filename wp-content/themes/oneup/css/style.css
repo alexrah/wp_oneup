@@ -4375,3 +4375,13 @@ body > .site-loader.pe-disabled {
 .pe-active {
   width: 240%;
 }
+
+.mappa {
+  float: right;
+  width: 40%;
+}
+
+.contatto {
+  float: left;
+  width: 58%;
+}

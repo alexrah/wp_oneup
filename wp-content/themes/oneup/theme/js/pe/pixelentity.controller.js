@@ -126,7 +126,8 @@
 			} else {
 				if (body.hasClass('pe-sticky')) {
 					//if (wsp < h-footer.outerHeight()) {
-						sitebody.css("margin-bottom",0);
+          // FIXED ISSUE WITH FOOTER DISAPPEARING
+						// sitebody.css("margin-bottom",0);
 						body.removeClass("pe-sticky");
 					//}
 				}
